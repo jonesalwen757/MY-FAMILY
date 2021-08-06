@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>my family</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+	$('.showbtn').click(function(){
+   		$('.myimgdivshowhide').show();
+	});
+  	$('.hidebtn').click(function(){
+   		$('.myimgdivshowhide').hide();
+	});
+});
+</script>
+<style>
+.myimgdivshowhide{
+	display:none;
+}
+</style>
+</head>
+<body>
+<h2>MY family</h2>
+<div class="myimgdivshowhide">
+	<img src="https://cdn.shopify.com/s/files/1/0173/8676/products/family_book.jpg?v=1460001178"/>
+    <img src="https://clipground.com/images/cartoon-dad-clipart-1.jpg">
+    PERVIN PETER
+    <img src="https://clipartmag.com/images/cartoon-mom-clipart-12.jpg">
+    BENITA MERLIN
+    <img src="https://webstockreview.net/images/brother-clipart-animated-9.jpg">
+    JONES ALWEN
+    <img src="https://tse2.mm.bing.net/th?id=OIP.Ac2aEOwn7o4aXwLv5fiW-gHaEH&pid=Api&P=0&w=290&h=162">
+    CRAIG MATTHEWS
+    <img src="https://media.istockphoto.com/vectors/cute-cartoon-family-vector-id165902629">
+    MY FAMILY
+</div>
+<button type="button" class="showbtn">Show Image</button>  
+<button type="button" class="hidebtn">Hide Image</button>
+</body>
+</html>              
